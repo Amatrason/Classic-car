@@ -1,4 +1,5 @@
 import React from 'react';
+import './backimg.css';
 import Navigation from './Navigation';
 export default function BackgroundDiv() {
   return (
@@ -15,16 +16,13 @@ export default function BackgroundDiv() {
     >
       <div
         style={{
-          position: 'flex',
-          bottom: '700px',
-          left: '10px',
         //   backgroundColor: 'rgba(0,0,0,0.5)',
           padding: '5px 10px',
           borderRadius: '4px',
         }}
       >
         <Navigation/>
-        some text about cars
+          <div className='text'>some text about cars</div>  
       </div>
     </div>
   );
