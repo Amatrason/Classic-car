@@ -1,0 +1,44 @@
+.navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 25px 25px;
+}
+
+.navigation.open {
+    display: block;
+    opacity: 1;
+}
+
+.navigation.closed {
+    display: none;
+}
+
+.navigation-item {
+    font-size: 30px;
+    margin: 24px 0px;
+    display: block;
+    text-align: right;
+    font-family: jaro;
+    font-weight: bold;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .navigation {
+        background-color: transparent;
+        width: unset;
+        height: unset;
+    }
+
+    .navigation-item {}
+
+    .navigation.open,
+    .navigation.closed {
+        display: block;
+        opacity: 1;
+    }
+}

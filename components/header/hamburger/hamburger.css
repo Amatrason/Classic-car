@@ -1,0 +1,23 @@
+.hamburger {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    cursor: pointer;
+    background-color: white;
+    padding: 16px;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+}
