@@ -7,6 +7,8 @@ export default function About() {
       <BackgroundDiv />
       <Hero />
       anything
+      anything 2
+
     </div>
   );
 }
