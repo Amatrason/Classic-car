@@ -1,7 +1,10 @@
 import React from 'react';
+
 import './backimg.css';
 export default function BackgroundDiv() {
   return (
+   
+
     <div
       style={{
         position: 'relative',
@@ -20,7 +23,7 @@ export default function BackgroundDiv() {
           borderRadius: '4px',
         }}
       >
-        <div className='text'>some text about cars</div>
+        <div className='text'>Porsche[a] or Dr. Ing. h.c. F. Porsche AG is a German automobile manufacturer specializing in luxury, high-performance sports cars, SUVs and sedans, headquartered in Stuttgart, Baden-Württemberg, Germany. The company is owned by Volkswagen AG, a controlling stake of which is owned by Porsche Automobil Holding SE,</div>
       </div>
     </div>
   );

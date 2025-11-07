@@ -5,7 +5,7 @@
     background-color: white;
     width: 100vw;
     height: 100vh;
-    padding: 100px 25px 25px;
+    padding: 30px 25px 25px;
 }
 
 .navigation.open {
@@ -19,7 +19,7 @@
 
 .navigation-item {
     font-size: 30px;
-    margin: 24px 0px;
+    margin: 4px 0px;
     display: block;
     text-align: right;
     font-family: jaro;
