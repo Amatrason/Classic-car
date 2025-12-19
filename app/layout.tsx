@@ -1,9 +1,17 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "../components/header/Header";
-import { Jaro } from "next/font/google";
+import { Jaro, Jaldi } from "next/font/google";
 
 const jaro = Jaro({ subsets: ["latin"], variable: "--font-jaro" });
+
+const jaldi = Jaldi({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  display: 'swap',
+  variable: "--font-jaldi"
+});
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${jaro.variable} antialiased`}
+        className={`${jaro.variable} ${jaldi.variable} antialiased`}
       >
         <Header />
         {children}

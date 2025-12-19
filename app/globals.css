@@ -28,3 +28,13 @@ body {
 .big-text {
   font-size: 82px;
 }
+
+.page-container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background-secondary {
+  background-color: #C4C3C0;
+}

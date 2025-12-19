@@ -2,16 +2,14 @@ import React from 'react';
 import BackgroundDiv from '../components/Backimg'
 import Hero from '../components/hero/hero'
 import Logo from '../components/logo'
-export default function About() {
+import About from '../components/about/About';
+
+export default function Home() {
   return (
     <div>
       <BackgroundDiv />
-      <Hero />
       <Logo />
-
-      anything
-      anything 2
-
+      <About />
     </div>
   );
 }
