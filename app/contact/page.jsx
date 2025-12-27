@@ -9,8 +9,10 @@ export default function Contact() {
     
     <Navigation />
     < BackgroundDiv/>
+    
     this is the contact page
     </div>
   );
 }
-import Image from 'next/image';
+
+

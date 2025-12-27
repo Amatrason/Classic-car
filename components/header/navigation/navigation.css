@@ -34,7 +34,7 @@
         height: unset;
     }
 
-    .navigation-item {}
+    /* .navigation-item {} */
 
     .navigation.open,
     .navigation.closed {
