@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Jaldi, Jaro } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 const jaldi = Jaldi({
   weight: ["400", "700"],
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

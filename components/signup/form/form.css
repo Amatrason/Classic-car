@@ -1,0 +1,28 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 40px 60px 40px;
+    width: 300px;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form__title {
+    font-size: 20px;
+    padding-bottom: 8px;
+    /* margin-bottom: 40px; */
+}
+
+.form label {
+    font-size: 12px;
+}
+
+.form input {
+    background: var(--background);
+    color: var(--foreground);
+    height: 24px;
+    padding-inline: 8px;
+    width: 100%;
+}

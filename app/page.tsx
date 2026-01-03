@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from '../components/hero/hero';
 import About from '../components/about/About';
 import Cars from '../components/cars/Cars';
+import Signup from '../components/signup/Signup';
 
 export default function Page() {
   return (
@@ -11,6 +12,7 @@ export default function Page() {
       <Hero />
       <About />
       <Cars />
+      <Signup />
     </div>
   );
 }

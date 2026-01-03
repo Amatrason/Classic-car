@@ -38,17 +38,17 @@ export default function Cars() {
 
     return (
         <section className="cars-section bg-secondary">
-            <div className="cars-section--inner container">
-                <div className="cars-section--slider-position">
-                    <div className="cars-section--slider-controls">
-                        <button className="cars-section--prev-btn" onClick={scrollLeft}>
+            <div className="cars-section__inner container">
+                <div className="cars-section__slider-position">
+                    <div className="cars-section__slider-controls">
+                        <button className="cars-section__prev-btn" onClick={scrollLeft}>
                             {`< previous`}
                         </button>
-                        <button className="cars-section--next-btn" onClick={scrollRight}>
+                        <button className="cars-section__next-btn" onClick={scrollRight}>
                             {`next >`}
                         </button>
                     </div>
-                    <div className="cars-section--slider" ref={sliderRef}>
+                    <div className="cars-section__slider" ref={sliderRef}>
                         {MOCK_CARD_LIST.map((card, i) => (
                             <CarCard {...card} key={`cars-section-${card.title}-${i}`} />
                         ))}

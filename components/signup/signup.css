@@ -1,0 +1,18 @@
+
+.signup-section {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('/signup-bg-img.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-block: 175px;
+}
+
+.signup-section__inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
