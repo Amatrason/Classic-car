@@ -37,20 +37,21 @@
 @media (min-width: 768px) {
     .navigation {
         position: static;
+        width: auto;
         transform: translateX(0);
         height: auto;
         background-color: transparent;
-        padding: 40px;
+        padding: 40px 0 0 0 ;
     }
 
     .navigation-item {
         font-size: 16px;
-        margin: 4px 15px;
+        margin: 4px 0px;
     }
 }
 
 @media (min-width: 1224px) {
-    .navigation {
+    /* .navigation {
         padding: 40px 80px;
-    }
+    } */
 }

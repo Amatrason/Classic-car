@@ -9,7 +9,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
     return (
-        <header>
+        <header className="container">
             <Hamburger isOpen={isOpen} toggle={toggle} />
             <Navigation isOpen={isOpen} toggle={toggle} />
 

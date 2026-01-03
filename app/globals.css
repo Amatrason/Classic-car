@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --secondary: #C4C3C0;
 }
 
 /* @theme inline {
@@ -36,4 +38,8 @@ body {
 
 .relative {
   position: relative;
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
 }
