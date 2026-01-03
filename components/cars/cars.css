@@ -1,0 +1,72 @@
+.cars-section {
+    width: 100%;
+    overflow-x: hidden;
+    padding-block: 60px;
+}
+
+.cars-section--inner {
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+.cars-section--slider-position {
+    /* width: 50%; */
+}
+
+.cars-section--slider {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    /* width: fit-content; */
+    overflow: auto;
+
+
+    /* slider */
+    scroll-behavior: smooth; /* smooths the scroll transition */
+    scroll-snap-type: x mandatory; /* enables horizontal snapping, mandatory ensures it always snaps */
+    overscroll-behavior-x: contain; /* prevents the page from scrolling */
+
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.cars-section--slider::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.cars-section--slider-controls {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-block: 16px;
+}
+
+.cars-section--prev-btn, .cars-section--next-btn {
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .cars-section--inner {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .cars-section--slider-position {
+        width: 50%;
+    }
+
+    .cars-section--slider {
+         width: calc((350px * 3) + (48px * 3));
+    }
+}
+
+@media (min-width: 1200px) {
+    .cars-section--slider-position {
+        width: 40%;
+    }
+
+    .cars-section--slider {
+        gap: 48px;
+    }
+}

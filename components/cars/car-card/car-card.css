@@ -1,0 +1,54 @@
+.car-card {
+flex-shrink: 0; /* prevents items from shrinking to fit the container */
+  scroll-snap-align: start; 
+}
+
+.car-card--img {
+
+}
+
+.car-card--img img {
+    width: 250px;
+    height: auto;
+    max-width: unset;
+}
+
+.car-card--content {
+    padding: 8px 16px;
+    font-family: var(--font-jaldi);
+}
+
+.car-card--flag {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -2px;
+    margin-bottom: -6px;
+}
+
+.car-card--title-and-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.car-card--title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.car-card--price {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+    .car-card--img img {
+        width: 350px;
+    }
+}
+
+/* Desktop and up */
+@media (min-width: 1200px) {
+ 
+}
