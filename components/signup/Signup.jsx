@@ -5,7 +5,7 @@ export default function Signup() {
     return (
         <section className="signup-section">
             <div className="signup-section__inner container">
-                 <Form />
+                <Form />
             </div>
         </section>
     )
