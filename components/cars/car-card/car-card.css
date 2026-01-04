@@ -3,10 +3,6 @@ flex-shrink: 0; /* prevents items from shrinking to fit the container */
   scroll-snap-align: start; 
 }
 
-.car-card__img {
-
-}
-
 .car-card__img img {
     width: 250px;
     height: auto;
